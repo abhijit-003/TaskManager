@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.container {
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+span {
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+button.update-btn {
+    padding: 10px 20px;
+    background-color: #2B7A78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.update-btn:hover {
+    background-color: #165452;
+}
